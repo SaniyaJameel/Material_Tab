@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tab1"
+    tools:context="com.example.halfm_1.tabbedview.tab1">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editText"
+        android:hint="SEARCH CONTACT"
+        android:typeface="sans"
+        android:paddingLeft="20dp"/>
+
+<ListView
+
+    android:layout_marginTop="43dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/list"
+
+    android:layout_alignParentTop="true"></ListView>
+</RelativeLayout>
